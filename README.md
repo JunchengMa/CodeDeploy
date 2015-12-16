@@ -27,6 +27,4 @@ sed -i "s/sleep(.*)/sleep(10)/" install
 service codedeploy-agent status 
 
 
-python -m SimpleHTTPServer
 
-scp -i Mark.pem -r upload.dir  ec2-user@52.91.106.154:/home/ec2-user
